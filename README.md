@@ -154,3 +154,32 @@ Para administrar un directorio telefónico sin claves duplicadas y ordenado por 
 
 
 ![Tarea](eaeaea.png)
+
+## Salida de Consola
+```
+----Practica Mapas----
+Nombre: Steve Brito
+*****Lista Hash*******
+ID: 1, Name: Juan, Position: DEV
+ID: 2, Name: Pedro, Position: DEV
+ID: 3, Name: Maria, Position: DEV
+ID: 4, Name: Pedro, Position: DEV
+ID: 5, Name: Juan, Position: DEV
+***Lista Hash Sin 2*****
+ID: 1, Name: Juan, Position: DEV
+ID: 3, Name: Maria, Position: DEV
+ID: 4, Name: Pedro, Position: DEV
+ID: 5, Name: Juan, Position: DEV
+*******Tree******
+ID: 1, Name: Juan, Position: DEV
+ID: 2, Name: Pedro, Position: DEV
+ID: 3, Name: Maria, Position: DEV
+ID: 4, Name: Pedro, Position: DEV
+ID: 5, Name: Juan, Position: DEV
+*******Lista Tree Sin 2******
+ID: 1, Name: Juan, Position: DEV
+ID: 3, Name: Maria, Position: DEV
+ID: 4, Name: Pedro, Position: DEV
+ID: 5, Name: Juan, Position: DEV
+PS C:\Users\LAB_04\Desktop\icc-estructura-u2-maps>
+```
