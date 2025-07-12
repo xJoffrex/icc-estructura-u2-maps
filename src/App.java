@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 import controllers.ControllerDAOHash;
 import controllers.ControllerDAOTree;
 import controllers.Ejercicios;
@@ -16,6 +18,7 @@ public class App {
         System.out.println("Nombre: Steve Brito"); /// Cambiar por su nombre
         // Ejecuta el ejemplo de uso de HashMap con ejemplos sencillos
         runMapExamlpe();
+        runEjerccios();
 
         // // Ejecuta el ejemplo de gestión de empleados usando HashMap
         // runEmpleadoExample();
@@ -80,7 +83,22 @@ public class App {
     }
 
     private static void runEjerccios() {
-        throw new UnsupportedOperationException("Not implemented yet");
+        Ejercicios s = new Ejercicios();
+
+        System.out.println("Ejercicio 1");
+        System.out.println(Ejercicios.areAnagrams("listen", "silent")); // true
+        System.out.println(Ejercicios.areAnagrams("hello", "bello"));   // false
+        System.out.println(Ejercicios.areAnagrams("triangle", "integral")); // true
+
+        System.out.println("Ejercicio 2");
+        System.out.println(Arrays.toString(s.sumatoriaDeDos(new int[]{9, 2, 3, 6}, 5))); // [1, 2]
+        System.out.println(Arrays.toString(s.sumatoriaDeDos(new int[]{9, 2, 3, 6}, 10))); // null
+
+        System.out.println("Ejercicio 3");
+        s.contarCaracteres("hola");
+
+        System.out.println("Ejercicio 4");
+        System.out.println(s.sonAnagramas("roma", "amor")); // true
 
     }
 }
